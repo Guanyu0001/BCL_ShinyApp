@@ -6,5 +6,5 @@
 - Allow the user to search for multiple entries simultaneously. All types of beverages were checked as default.
 3. A third feature, whether it’s a change to the UI, or a functional widget.
 - Show the number of results found whenever the filters change. 
-- Allow the users to download the custom table not the full table as a .csv file. IN this case, it will be very helpful for them save their selection.
+- Allow the users to download the custom table not the full table as a .csv file. In this case, it will be very helpful for them save their selection.
 
