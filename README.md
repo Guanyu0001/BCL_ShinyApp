@@ -1,5 +1,8 @@
 # BCL APP
 
+# Online URL
+https://guanyu.shinyapps.io/BCL_guanyu/
+
 ## Option
 My choice is Option A - BC Liquor app.
 
