@@ -1,4 +1,15 @@
 # BCL APP
+This is a interactive app to help user select beverages they like by types and prices. The results can be downloaded.
+
+You will find 6 files in the repository: "app.R", "bcl-data.csv", "BCL.Rproj", "README.md", ".gitignore", ".gitattributes"
+
+- app.R is the code for this shiny app. For browsing, click the app.R file. For running code, you can open Rstudio and start a new project by the link, or just download the Rmd file and run it in Studio.
+- bcl-data.csv is the data file for this app.
+- BCL.Rproj contains project options and can also be used as a shortcut for opening the project directly from the file system.
+- README.md contains a thorough description on the content that can be found in this repository.
+- .gitignore specifies intentionally untracked files that Git should ignore.
+- .gitattributes is a simple text file that gives attributes to pathnames.
+
 
 ## Online URL
 https://guanyu.shinyapps.io/BCL_guanyu/
