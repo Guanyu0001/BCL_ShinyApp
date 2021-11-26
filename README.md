@@ -14,4 +14,4 @@ My choice is Option A - BC Liquor app.
 - Allow the users to download the custom table not the full table as a .csv file. In this case, it will be very helpful for them save their selection.
 
 ## Dataset
-The data can be found here: https://deanattali.com/files/bcl-data.csv. This data is from Dean Attali’s tutorial for shiny app: https://deanattali.com/blog/building-shiny-apps-tutorial/. 
+The data can be found here: https://deanattali.com/files/bcl-data.csv. This data is from Dean Attali’s tutorial for shiny app: https://deanattali.com/blog/building-shiny-apps-tutorial/. Thanks for sharing.
