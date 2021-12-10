@@ -6,9 +6,7 @@ options(shiny.autoreload = T)
 
 ui <- fluidPage(
   titlePanel("BCL app"),
-  "This is a interactive app to help users select beverages they like by types and prices. There are three functions can help reader select the beverages: 
-  1. select the price range, 2. select beverage type, and 3. Sort the results. Textboxes can help users check inputs. The filtered records are visualized by a histgram and a table.
-  The filtered records can be downloaded. Thank your for trying this app. Feel free to let me know if you have any questions.",
+  "This is an interactive app to help users select beverages they like by type and price. There are three functions that can help the user select the beverages: 1. select the price range, 2. select the beverage type, and 3. sort the results. Textboxes can help users check inputs. The filtered records are visualized with a histogram and a table. The filtered records can be downloaded. Thank you for trying this app. Feel free to let me know if you have any questions.",
   br(),
   sidebarLayout(
     sidebarPanel(
@@ -89,11 +87,11 @@ server <- function(input, output) {
 
   # for demonstrating the inputs:
   # display the selected price range for beverages
-  output$price_range_selected <- renderText(paste("The beverages from", input$my_slider[1],"CAD", "to", input$my_slider[2], "CAD were selected."))
+  output$price_range_selected <- renderText(paste("The beverages from", input$my_slider[1],"CAD", "to", input$my_slider[2], "CAD are selected."))
   # display the selected types of beverages
-  output$beverage_type_selected <- renderText(paste(paste(input$my_radio, collapse = " "), "were selected."))
+  output$beverage_type_selected <- renderText(paste(paste(input$my_radio, collapse = " "), "are selected."))
   # providing the number of options
-  output$options <- renderText(paste("We found ", nrow(filtered()), " options for you."))
+  output$options <- renderText(paste("I find ", nrow(filtered()), " options for you."))
 
   # settings for download
   output$downloadData <- downloadHandler(
