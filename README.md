@@ -12,13 +12,21 @@ You will find 6 files in the repository: "app.R", "bcl-data.csv", "BCL.Rproj", "
 
 ## Updates
 This new version v0.2.0 were updated for the following considerations:
-- App design: 
-    * Update the description of app, and provide the introductions of each widget.
+
+- App design
+
+    It is easy for the user to  understand how the app is supposed to be used and also for the user to use the app with the introduction and feedback.
+    * Update the description of app, and provide the introduction of each widget.
     * Add a linear-break and a bold tiltle to each widget.
     * Add a textbox for demostrating the current input of each widget.
-    It is easy for the user to  understand how the app is supposed to be used and also for the user to use the app with the introduction and feedback.
 
-- 
+- Code mastery
+
+    A minimal amount code and dependencies are used (code efficiency):
+    * Reactive expressions were used.
+    * There is no redundant code. 
+    
+    Note that the if-else statement is used for the descending the records by price. Given that only `desc()` works with `arange()`, this is best way I can achieve the sorting now. Besides, I have asked TA for a better solution. But the feedback about providing `descending = TURE` does not work for both  `desc()` and `arange()`,  and the reactive expression (i.e., `filtered()`) is different from data frame, which means the approaches of sorting for data frame can be used here.
 
 
 ## Online URL
