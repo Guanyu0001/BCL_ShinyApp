@@ -10,6 +10,13 @@ You will find 6 files in the repository: "app.R", "bcl-data.csv", "BCL.Rproj", "
 - .gitignore specifies intentionally untracked files that Git should ignore.
 - .gitattributes is a simple text file that gives attributes to pathnames.
 
+## Updates
+This new version v0.2.0 were updated for the following considerations:
+- App design: 
+    * Add linear breaks
+
+- 
+
 
 ## Online URL
 https://guanyu.shinyapps.io/BCL_guanyu/
