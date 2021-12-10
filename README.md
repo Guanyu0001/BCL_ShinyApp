@@ -13,7 +13,10 @@ You will find 6 files in the repository: "app.R", "bcl-data.csv", "BCL.Rproj", "
 ## Updates
 This new version v0.2.0 were updated for the following considerations:
 - App design: 
-    * Add linear breaks
+    * Update the description of app, and provide the introductions of each widget.
+    * Add a linear-break and a bold tiltle to each widget.
+    * Add a textbox for demostrating the current input of each widget.
+    It is easy for the user to  understand how the app is supposed to be used and also for the user to use the app with the introduction and feedback.
 
 - 
 
